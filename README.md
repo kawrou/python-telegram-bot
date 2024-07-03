@@ -1,25 +1,29 @@
 # python-telegram-bot
 
-# update.message.reply_text(text)
-# update.message.reply_photo(photo)
-# update.message.reply_document(document)
+## Useful methods:
 
-# context.bot.send_message(chat_id, text)
-# context.bot.send_photo(chat_id, photo)
-# context.bot.send_document(chat_id, document)
+```
+update.message.reply_text(text)
+update.message.reply_photo(photo)
+update.message.reply_document(document)
 
-# Handling Updates:
-# CommandHandler(command, callback)
-# Messagehandler(Filters.text, callback)
+context.bot.send_message(chat_id, text)
+context.bot.send_photo(chat_id, photo)
+context.bot.send_document(chat_id, document)
 
-# Updating Bot Commands:
-# set_my_commands(commands)
+Handling Updates:
+CommandHandler(command, callback)
+Messagehandler(Filters.text, callback)
 
-# send_sticker(chat_id, sticker)
-# send_animation(chat_id, animation)
+Updating Bot Commands:
+set_my_commands(commands)
 
-# update.message.text
+send_sticker(chat_id, sticker)
+send_animation(chat_id, animation)
 
-# context.user_data[] = {}
+update.message.text
 
-# ConversationHandler() - manage multi-step conversations. 
+context.user_data[] = {}
+
+ConversationHandler() - manage multi-step conversations. 
+```
